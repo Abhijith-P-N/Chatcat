@@ -18,7 +18,7 @@ const app = express();
 
 // ✅ Allow multiple origins (local + deployed)
 const FRONTEND_ORIGINS = [
-  "https://fanciful-croissant-bb4062.netlify.app" // optional HTTPS
+  "https://chatocat.netlify.app" // optional HTTPS
 ];
 
 // ✅ Global CORS middleware (apply before all routes)
