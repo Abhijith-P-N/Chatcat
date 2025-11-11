@@ -24,7 +24,7 @@ import "./App.css";
 const API_URL =
   (typeof window !== "undefined" && window.__API_URL__) ||
   import.meta?.env?.VITE_API_URL ||
-  "http://localhost:5000";
+  "https://chatcat-238p.onrender.com";
 
 // Axios setup
 const api = axios.create({ baseURL: API_URL });
